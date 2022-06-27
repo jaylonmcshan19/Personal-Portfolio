@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* nav-bar styling */
+.nav-bar{
+    /*background-color: crimson; */
+    background-color: rgba(0, 0, 0, 0.336);
+    
+    width: 100%
+}
+.nav-bar .menu li a {
+    color: white;
+}
+.menu {
+    display: flex;
+    padding: 25px;
+    text-decoration: none;
+    list-style: none;
+    justify-content: right;
+    gap: 47px;
+}
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7;
+  }
